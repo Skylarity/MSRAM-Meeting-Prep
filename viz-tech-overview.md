@@ -8,14 +8,18 @@ D3 allows the user to dynamically create and update content in a web browser by 
 
 Added in [HTML5](https://developer.mozilla.org/en-US/docs/HTML/HTML5), the HTML <canvas> element can be used to draw graphics via scripting in JavaScript. For example, it can be used to draw graphs, make photo compositions, create animations, or even do real-time video processing or rendering. <sup>[[source](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)]</sup>
 
-We prefer canvas over SVG for performance and flexibility reasons. **TODO**
+We prefer canvas over SVG for performance and flexibility reasons. SVGs live in the DOM, which adds memory and rendering overhead, whereas canvas elements exist for as long as it takes to draw the image onto the canvas. Canvas elements may also be animated and otherwise process in ways that SVGs cannot.
 
-# Leaflet
+# Leaflet.js
 
-**TODO**
+[Leaflet.js](http://leafletjs.com/) is a powerful mapping library that allows us to display map tiles and data together easily.
+
+# Turf.js
+
+[Turf.js](http://turfjs.org/) is an extremely powerful geospatial analysis library.
 
 # Three.js
 
 **TODO**
 
-*need some assistance from Kameron*
+[Three.js](https://threejs.org/) is a 2D and 3D graphics library written for WebGL and canvas.
