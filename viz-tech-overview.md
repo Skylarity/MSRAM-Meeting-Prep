@@ -19,7 +19,7 @@ Leaflet has two primary functions for us:
 1. Displaying basemap tiles
 1. Displaying polygonal data on the map (in most cases)
 
-We then use [D3.js](#d3js), [Turf.js](#turfjs), and/or [Three.js](#three.js) to augment and extend the existing data.
+We then use [D3.js](#d3js), [Turf.js](#turfjs), and/or [Three.js](#threejs) to augment and extend the existing data.
 
 # Turf.js
 
