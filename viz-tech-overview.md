@@ -27,6 +27,4 @@ We then use [D3.js](#d3js), [Turf.js](#turfjs), and/or [Three.js](#threejs) to a
 
 # Three.js
 
-**TODO**
-
 [Three.js](https://threejs.org/) is a 2D and 3D graphics library written for WebGL and canvas.
