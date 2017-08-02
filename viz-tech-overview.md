@@ -12,13 +12,16 @@ We prefer canvas over SVG for performance and flexibility reasons. SVGs live in 
 
 # Leaflet.js
 
-**TODO**
-
 [Leaflet.js](http://leafletjs.com/) is a mapping library that allows us to display map tiles and data together easily.
 
-# Turf.js
+Leaflet has two primary functions for us:
 
-**TODO**
+1. Displaying basemap tiles
+1. Displaying polygonal data on the map (in most cases)
+
+We then use [D3.js](#d3js), [Turf.js](#turfjs), and/or [Three.js](#three.js) to augment and extend the existing data.
+
+# Turf.js
 
 [Turf.js](http://turfjs.org/) is an extremely powerful geospatial analysis library.
 
