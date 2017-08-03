@@ -20,8 +20,6 @@ In the first scenario, D3 is used to both manipulate data and display it in the 
 
 ![D3 used for user-controlled data filtering](images/d3-filtering.gif)
 
----
-
 D3 also shines when you're just using its data manipulation methods. The second use case uses D3 to filter data and map it to sizes/colors/other data/etc. and then we use these values to display data via HTML5 canvas.
 
 ## Canvas
