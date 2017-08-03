@@ -44,7 +44,7 @@ User interaction with the HTML5 canvas is more difficult than interaction with D
 
 ### Ideal Use Cases
 
-## Our Recomendation
+## Our Recommendation
 
 # Mapping Technologies
 
