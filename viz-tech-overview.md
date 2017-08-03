@@ -18,6 +18,10 @@ D3 has two optimal use cases.
 
 In the first scenario, D3 is used to both manipulate data and display it in the DOM via SVG. This is most useful for interactive graphs or data manipulation controls and filters.
 
+![D3 used for user-controlled data filtering](images/d3-filtering.gif)
+
+---
+
 D3 also shines when you're just using its data manipulation methods. The second use case uses D3 to filter data and map it to sizes/colors/other data/etc. and then we use these values to display data via HTML5 canvas.
 
 ## Canvas
@@ -26,7 +30,7 @@ Added in [HTML5](https://developer.mozilla.org/en-US/docs/HTML/HTML5), the HTML 
 
 ### Advantages
 
-We prefer canvas over SVG for performance and flexibility reasons. SVGs live in the DOM, which adds memory and rendering overhead, whereas canvas graphics exist for as long as it takes to draw the image onto the canvas. Canvas graphics may also be animated and otherwise process in ways that SVGs cannot.
+Canvas is preferred over SVG when performance and flexibility are desired. SVGs live in the DOM, which adds memory and rendering overhead, whereas canvas graphics exist for as long as it takes to draw the image onto the canvas. Canvas graphics may also be animated and otherwise process in ways that SVGs cannot.
 
 ### Disadvantages
 
