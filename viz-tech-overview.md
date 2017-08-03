@@ -1,5 +1,4 @@
-
-# Visualizaion Technologies
+# Visualization Technologies
 
 ## D3.js
 
@@ -15,7 +14,7 @@ D3 allows the user to dynamically create and update content in a web browser by 
 
 ## Canvas
 
-Added in [HTML5](https://developer.mozilla.org/en-US/docs/HTML/HTML5), the HTML <canvas> element can be used to draw graphics via scripting in JavaScript. For example, it can be used to draw graphs, make photo compositions, create animations, or even do real-time video processing or rendering. <sup>[[source](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)]</sup>
+Added in [HTML5](https://developer.mozilla.org/en-US/docs/HTML/HTML5), the HTML `<canvas>` element can be used to draw graphics via scripting in JavaScript. For example, it can be used to draw graphs, make photo compositions, create animations, or even do real-time video processing or rendering. <sup>[[source](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)]</sup>
 
 We prefer canvas over SVG for performance and flexibility reasons. SVGs live in the DOM, which adds memory and rendering overhead, whereas canvas graphics exist for as long as it takes to draw the image onto the canvas. Canvas graphics may also be animated and otherwise process in ways that SVGs cannot.
 
@@ -34,6 +33,8 @@ We prefer canvas over SVG for performance and flexibility reasons. SVGs live in 
 ### Disadvantages
 
 ### Ideal Use Cases
+
+## Our Recomendation
 
 # Mapping Technologies
 
@@ -64,6 +65,8 @@ We then use [D3.js](#d3js), [Turf.js](#turfjs), and/or [Three.js](#threejs) to a
 
 ### Ideal Use Cases
 
+## Our Recomendation
+
 # User Interface Framework Technology
 
 ## Angular.js
@@ -92,6 +95,10 @@ Description here
 
 ### Advantages
 
+`like a combo of Angular and React`
+
 ### Disadvantages
 
 ### Ideal Use Cases
+
+## Our Recomendation
