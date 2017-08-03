@@ -65,7 +65,7 @@ We then use [D3.js](#d3js), [Turf.js](#turfjs), and/or [Three.js](#threejs) to a
 
 ### Ideal Use Cases
 
-## Our Recomendation
+## Our Recommendation
 
 # User Interface Framework Technology
 
@@ -101,4 +101,4 @@ Description here
 
 ### Ideal Use Cases
 
-## Our Recomendation
+## Our Recommendation
