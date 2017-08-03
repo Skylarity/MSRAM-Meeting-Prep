@@ -30,7 +30,7 @@ We prefer canvas over SVG for performance and flexibility reasons. SVGs live in 
 
 ### Disadvantages
 
-User interaction with the HTML5 `<canvas>` is more difficult than interaction with DOM-based approaches like SVG. Since there are no elements to attach listeners to, you must track the mouse position and perform calculations to see if it is within the area you want to be clickable.
+User interaction with the HTML5 canvas is more difficult than interaction with DOM-based approaches like SVG. Since there are no elements to attach listeners to, you must track the mouse position and perform calculations to see if it is within the area you want to be clickable.
 
 ### Ideal Use Cases
 
