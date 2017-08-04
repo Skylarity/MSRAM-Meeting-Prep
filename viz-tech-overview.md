@@ -54,13 +54,16 @@ Performance. `TODO: EXPAND`
 
 Showcasing data in a stylized and three-dimensional manner.
 
-`![three-js-demo](images\three-js-demo.gif)`
+`TODO: ![three-js-demo](images\three-js-demo.gif)`
 
 [[source](https://paperplanes.world/)]
 
 ## Our Recommendation
 
 `TODO`
+
+- D3 + SVG for some things
+- D3 + HTML5 canvas or Three.js for things that require performance or extensibility
 
 # Mapping Technologies
 
@@ -87,25 +90,54 @@ We then use [D3.js](#d3js), [Turf.js](#turfjs), and/or [Three.js](#threejs) to a
 
 `TODO`
 
+## Mapbox
+
+[Mapbox](https://www.mapbox.com/) is a JavaScript library built on [Leaflet.js](#leafletjs). It provides additional functionality for data-driving the styles of data displayed on the map, as well a suite of tools dedicated to creating and editing map tile styles.
+
+### Advantages
+
+Mapbox has two implementations, a raster-based system, and a WebGL based vector system.
+
+MapboxGL provides 3D rendering capabilities as well as a performance boost and seamless transitions between zoom level (no need to lead new raster tiles when you're just loading one set of vector tiles).
+
+### Disadvantages
+
+Mapbox only really has one major disadvantage if you're choosing between it and Leaflet.js. This is that you cannot plug D3.js' data manipulation methods easily into Mapbox's proprietary data-driven styling methods.
+
+Also, a recent version of Internet Explorer 11 introduced a bug when adding data sources to a Mapbox map, causing a blank screen. This is obviously not an issue when IE11 is not required for the project.
+
+### Ideal Use Cases
+
+In cases where three-dimensional representation may help the visual cognition of data, Mapbox is incredibly easy to use.
+
+![mapbox-demo](images/mapbox-demo.png)
+
 ## Turf.js
 
 [Turf.js](http://turfjs.org/) is an extremely powerful geospatial vector analysis library.
 
 ### Advantages
 
-`TODO`
+Turf.js reduces complex geographical operations down to a simple method call.
 
 ### Disadvantages
 
-`TODO`
+Turf.js must be used client-side if you are not using Node.js as your backend. This means that complex calculations may potentially be offloaded to the client machine.
 
 ### Ideal Use Cases
 
-`TODO`
+Turf.js is ideal for optimizing user-interaction with data - i.e. detecting if geographical points are within a selection, creating grids or random areas of arbitrary data, scaling, rotating, or otherwise transforming data, etc.
+
+Here, Turf.js is used to find the nearest hospital to a branch of a public library selected by a user. <sup>[[source](https://bl.ocks.org/pdbartsch/44332447869f2a450144)]</sup>
+
+![turf-demo](images/turf-demo.png)
 
 ## Our Recommendation
 
 `TODO`
+
+- Leaflet + Turf + D3 for most use cases
+- Mapbox + Turf for non-IE11 cases or cases with 3D requirements
 
 # User Interface Framework Technology
 
@@ -137,6 +169,8 @@ Description here
 
 `TODO`
 
+- Extreme extensibility
+
 ### Disadvantages
 
 `TODO`
@@ -155,7 +189,7 @@ Description here
 
 `TODO`
 
-Like a combo of Angular and React.
+- Like a combo of Angular and React
 
 ### Disadvantages
 
