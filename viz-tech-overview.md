@@ -42,11 +42,23 @@ User interaction with the HTML5 canvas is more difficult than interaction with D
 
 ### Advantages
 
+`TODO`
+
+Three.js allows us to render visualizations in 3D.
+
 ### Disadvantages
+
+`TODO`
+
+Performance.
 
 ### Ideal Use Cases
 
+`TODO`
+
 ## Our Recommendation
+
+`TODO`
 
 # Mapping Technologies
 
@@ -63,9 +75,15 @@ We then use [D3.js](#d3js), [Turf.js](#turfjs), and/or [Three.js](#threejs) to a
 
 ### Advantages
 
+`TODO`
+
 ### Disadvantages
 
+`TODO`
+
 ### Ideal Use Cases
+
+`TODO`
 
 ## Turf.js
 
@@ -73,44 +91,78 @@ We then use [D3.js](#d3js), [Turf.js](#turfjs), and/or [Three.js](#threejs) to a
 
 ### Advantages
 
+`TODO`
+
 ### Disadvantages
+
+`TODO`
 
 ### Ideal Use Cases
 
+`TODO`
+
 ## Our Recommendation
+
+`TODO`
 
 # User Interface Framework Technology
 
 ## Angular.js
 
+`TODO`
+
 Description here
 
 ### Advantages
 
+`TODO`
+
 ### Disadvantages
 
+`TODO`
+
 ### Ideal Use Cases
+
+`TODO`
 
 ## React.js
 
+`TODO`
+
 Description here
 
 ### Advantages
 
+`TODO`
+
 ### Disadvantages
 
+`TODO`
+
 ### Ideal Use Cases
+
+`TODO`
 
 ## Vue.js
 
+`TODO`
+
 Description here
 
 ### Advantages
 
-`like a combo of Angular and React`
+`TODO`
+
+Like a combo of Angular and React.
 
 ### Disadvantages
 
+`TODO`
+
 ### Ideal Use Cases
 
+`TODO`
+
 ## Our Recommendation
+
+`TODO`
