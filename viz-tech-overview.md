@@ -48,13 +48,15 @@ Three.js allows us to render visualizations in 3D.
 
 ### Disadvantages
 
-`TODO`
-
-Performance.
+Performance. `TODO: EXPAND`
 
 ### Ideal Use Cases
 
-`TODO`
+Showcasing data in a stylized and three-dimensional manner.
+
+![three-js-demo](images\three-js-demo.gif)
+
+[[source](https://paperplanes.world/)]
 
 ## Our Recommendation
 
