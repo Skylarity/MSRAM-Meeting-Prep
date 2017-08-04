@@ -128,7 +128,7 @@ Turf.js must be used client-side if you are not using Node.js as your backend. T
 
 Turf.js is ideal for optimizing user-interaction with data - i.e. detecting if geographical points are within a selection, creating grids or random areas of arbitrary data, scaling, rotating, or otherwise transforming data, etc.
 
-Here, Turf.js is used to find the nearest hospital to a branch of a public library selected by a user. <sup>[[source](https://bl.ocks.org/pdbartsch/44332447869f2a450144)]</sup>
+Here, Turf.js is used to find the nearest hospital to a branch of a public library selected by the user. <sup>[[source](https://bl.ocks.org/pdbartsch/44332447869f2a450144)]</sup>
 
 ![turf-demo](images/turf-demo.png)
 
