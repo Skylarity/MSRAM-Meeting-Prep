@@ -54,7 +54,7 @@ Performance. `TODO: EXPAND`
 
 Showcasing data in a stylized and three-dimensional manner.
 
-![three-js-demo](images\three-js-demo.gif)
+`![three-js-demo](images\three-js-demo.gif)`
 
 [[source](https://paperplanes.world/)]
 
