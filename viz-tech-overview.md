@@ -205,6 +205,7 @@ Description here
 `TODO`
 
 - Fast
+	- Virtual DOM
 - Extreme extensibility
 - Not opinionated
 
@@ -232,6 +233,7 @@ Vue's "opinionated" nature can be advantageous once you learn the design practic
 
 - Smallest
 - Fastest
+	- Virtual DOM
 - Cleanest code - `.vue` files
 - Like a combo of Angular and React
 
