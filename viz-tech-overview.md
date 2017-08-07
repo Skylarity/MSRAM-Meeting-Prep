@@ -143,6 +143,8 @@ A combination of Leaflet.js, Turf.js, and D3 will be more than adequate for most
 
 When not using IE11, or if the project has 3D requirements, then swapping Leaflet.js for Mapbox is the optimal pairing. Three.js can also be overlaid on top of the map if IE11 is required, and 3D is not optional.
 
+`TODO: Compare against ESRI web app - might need Kam's help`
+
 # User Interface Framework Technology
 
 ## Angular.js
