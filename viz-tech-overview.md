@@ -52,7 +52,7 @@ The overhead of rendering a full-3D scene in a web browser is too much for some 
 
 Showcasing data in a stylized and three-dimensional manner.
 
-![three-js-demo](images\threejs-demo.gif)
+![threejs-demo](images/threejs-demo.gif)
 
 [[source](http://armsglobe.chromeexperiments.com/)]
 
