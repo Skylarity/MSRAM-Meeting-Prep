@@ -70,11 +70,13 @@ For many other cases, it will be worth potentially limiting the userbase in orde
 
 ### Advantages
 
-`TODO`
+Leaflet is very simple and extensible. Using it in a project requires minimal setup and execution.
+
+Leaflet can render data in both SVG and HTML5 canvas, and provides an API for using the same code to generate either.
 
 ### Disadvantages
 
-`TODO`
+Leaflet by itself just provides the framework to display map tiles, data, and other things. If you want a basemap you must use tiles from a third-party source such as [Mapbox](#mapbox).
 
 ### Ideal Use Cases
 
@@ -84,6 +86,8 @@ Leaflet has two primary functions for us:
 1. Displaying polygonal data on the map (in most cases)
 
 We then use [D3.js](#d3js), [Turf.js](#turfjs), and/or [Three.js](#threejs) to augment and extend the existing data.
+
+![leaflet-demo](images/leaflet-demo.png)
 
 ## Mapbox
 
@@ -95,6 +99,8 @@ Mapbox has two implementations, a raster-based system, and a WebGL based vector 
 
 MapboxGL provides 3D rendering capabilities as well as a performance boost and seamless transitions between zoom level (no need to lead new raster tiles when you're just loading one set of vector tiles).
 
+Mapbox's map style creation tool is fantastic for both prototyping in and implementing final designs.
+
 ### Disadvantages
 
 Mapbox only really has one major disadvantage if you're choosing between it and Leaflet.js. This is that you cannot plug D3.js' data manipulation methods easily into Mapbox's proprietary data-driven styling methods.
@@ -102,6 +108,8 @@ Mapbox only really has one major disadvantage if you're choosing between it and 
 Also, a recent version of Internet Explorer 11 introduced a bug when adding data sources to a Mapbox map, causing a blank screen. This is obviously not an issue when IE11 is not required for the project.
 
 ### Ideal Use Cases
+
+Mapbox can be used interchangeably with Leaflet for projects that do not require IE11 support.
 
 In cases where three-dimensional representation may help the visual cognition of data, Mapbox is incredibly easy to use.
 
