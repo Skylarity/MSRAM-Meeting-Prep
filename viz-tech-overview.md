@@ -147,7 +147,29 @@ When not using IE11, or if the project has 3D requirements, then swapping Leafle
 
 # User Interface Framework Technology
 
-## Angular.js
+## Angular.js v1.x
+
+`TODO`
+
+Description here
+
+### Advantages
+
+Angular is a large framework, and as such has many built-in pieces of functionality that can be applied to many use-cases and design practices.
+
+Angular's "opinionated" nature can be advantageous once you learn the design practices, because it can allow you to code large projects with much less overhead.
+
+### Disadvantages
+
+Angular 1.x is nearing its end-of-life. It also has a rather large footprint, and is slower than its competitors.
+
+Angular's "opinionated" nature can be limiting if you are trying to do something in a way that the developers did not account for.
+
+### Ideal Use Cases
+
+`TODO`
+
+## Angular v2+
 
 `TODO`
 
@@ -157,16 +179,14 @@ Description here
 
 `TODO`
 
+- TypeScript recommended
 - Many built-in tools for generic parts of web apps
 
 ### Disadvantages
 
 `TODO`
 
-- Old
-- Big
-- Slow
-- Opinionated, not as flexible as React
+- "Opinionated", not as flexible as React
 
 ### Ideal Use Cases
 
@@ -192,7 +212,7 @@ Description here
 
 `TODO`
 
-- Not opinionated
+- Not "opinionated"
 
 ### Ideal Use Cases
 
@@ -206,6 +226,8 @@ Description here
 
 ### Advantages
 
+Vue's "opinionated" nature can be advantageous once you learn the design practices, because it can allow you to code large projects with much less overhead.
+
 `TODO`
 
 - Smallest
@@ -215,9 +237,11 @@ Description here
 
 ### Disadvantages
 
+Vue's "opinionated" nature can be limiting if you are trying to do something in a way that the developers did not account for.
+
 `TODO`
 
-- Opinionated, not as flexible as React
+- "Opinionated", not as flexible as React
 
 ### Ideal Use Cases
 
