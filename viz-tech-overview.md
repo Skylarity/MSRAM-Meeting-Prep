@@ -157,13 +157,13 @@ Description here
 
 Angular is a large framework, and as such has many built-in pieces of functionality that can be applied to many use-cases and design practices.
 
-Angular's "opinionated" nature can be advantageous once you learn the design practices, because it can allow you to code large projects with much less overhead.
+Angular's "opinionated" nature can be advantageous once you learn the design practices, because it can allow you to code large projects with much less overhead. <sup>[[opinionation](https://stackoverflow.com/a/802064/2651657)]</sup>
 
 ### Disadvantages
 
 Angular 1.x is nearing its end-of-life. It also has a rather large footprint, and is slower than its competitors.
 
-Angular's "opinionated" nature can be limiting if you are trying to do something in a way that the developers did not account for.
+Angular's "opinionated" nature can be limiting if you are trying to do something in a way that the developers did not account for. <sup>[[opinionation](https://stackoverflow.com/a/802064/2651657)]</sup>
 
 ### Ideal Use Cases
 
@@ -226,7 +226,7 @@ Description here
 
 ### Advantages
 
-Vue's "opinionated" nature can be advantageous once you learn the design practices, because it can allow you to code large projects with much less overhead.
+Vue's "opinionated" nature can be advantageous once you learn the design practices, because it can allow you to code large projects with much less overhead. <sup>[[opinionation](https://stackoverflow.com/a/802064/2651657)]</sup>
 
 `TODO`
 
@@ -237,7 +237,7 @@ Vue's "opinionated" nature can be advantageous once you learn the design practic
 
 ### Disadvantages
 
-Vue's "opinionated" nature can be limiting if you are trying to do something in a way that the developers did not account for.
+Vue's "opinionated" nature can be limiting if you are trying to do something in a way that the developers did not account for. <sup>[[opinionation](https://stackoverflow.com/a/802064/2651657)]</sup>
 
 `TODO`
 
