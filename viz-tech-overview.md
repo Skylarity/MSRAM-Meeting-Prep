@@ -42,28 +42,25 @@ User interaction with the HTML5 canvas is more difficult than interaction with D
 
 ### Advantages
 
-`TODO`
-
-Three.js allows us to render visualizations in 3D.
+Three.js allows us to easily render visualizations in 3D.
 
 ### Disadvantages
 
-Performance. `TODO: EXPAND`
+The overhead of rendering a full-3D scene in a web browser is too much for some client machines to handle, and limits us to only machines with adequate hardware.
 
 ### Ideal Use Cases
 
 Showcasing data in a stylized and three-dimensional manner.
 
-`TODO: ![three-js-demo](images\three-js-demo.gif)`
+![three-js-demo](images\threejs-demo.gif)
 
-[[source](https://paperplanes.world/)]
+[[source](http://armsglobe.chromeexperiments.com/)]
 
 ## Our Recommendation
 
-`TODO`
+For most cases, using D3 in conjunction with SVG or HTML5 canvas will a powerful combination. Using SVG has the downside of being the least performant option, but for almost every simple graph to moderately detailed visualization it will be worth using for the simplicity it brings in terms of user interaction. In cases where the visualization is very detailed or requires otherwise calculation-heavy elements, using HTML5 canvas should bring the performance back up.
 
-- D3 + SVG for some things
-- D3 + HTML5 canvas or Three.js for things that require performance or extensibility
+For many other cases, it will be worth potentially limiting the userbase in order to take advantage of the possibilities that a full-3D scene brings to the table. For instance, a 3D model of a city will be more easily traversed and understood by the user than a 2D map when dealing with data related to elevation.
 
 # Mapping Technologies
 
