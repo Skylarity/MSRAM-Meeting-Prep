@@ -109,11 +109,13 @@ Also, a recent version of Internet Explorer 11 introduced a bug when adding data
 
 ### Ideal Use Cases
 
-Mapbox can be used interchangeably with Leaflet for projects that do not require IE11 support.
+Mapbox can be used interchangeably with Leaflet.js for projects that do not require IE11 support.
 
 In cases where three-dimensional representation may help the visual cognition of data, Mapbox is incredibly easy to use.
 
 ![mapbox-demo](images/mapbox-demo.png)
+
+Mapbox's data-driven styling methods also simplify data visualization, if the project scope fits within the limitations of said methods.
 
 ## Turf.js
 
@@ -137,10 +139,9 @@ Here, Turf.js is used to find the nearest hospital to a branch of a public libra
 
 ## Our Recommendation
 
-`TODO`
+A combination of Leaflet.js, Turf.js, and D3 will be more than adequate for most visualization projects.
 
-- Leaflet + Turf + D3 for most use cases
-- Mapbox + Turf for non-IE11 cases or cases with 3D requirements
+When not using IE11, or if the project has 3D requirements, then swapping Leaflet.js for Mapbox is the optimal pairing. Three.js can also be overlaid on top of the map if IE11 is required, and 3D is not optional.
 
 # User Interface Framework Technology
 
