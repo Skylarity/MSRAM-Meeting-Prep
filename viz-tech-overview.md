@@ -68,13 +68,6 @@ For many other cases, it will be worth potentially limiting the userbase in orde
 
 [Leaflet.js](http://leafletjs.com/) is a mapping library that allows us to display map tiles and data together easily.
 
-Leaflet has two primary functions for us:
-
-1. Displaying basemap tiles
-1. Displaying polygonal data on the map (in most cases)
-
-We then use [D3.js](#d3js), [Turf.js](#turfjs), and/or [Three.js](#threejs) to augment and extend the existing data.
-
 ### Advantages
 
 `TODO`
@@ -85,7 +78,12 @@ We then use [D3.js](#d3js), [Turf.js](#turfjs), and/or [Three.js](#threejs) to a
 
 ### Ideal Use Cases
 
-`TODO`
+Leaflet has two primary functions for us:
+
+1. Displaying basemap tiles
+1. Displaying polygonal data on the map (in most cases)
+
+We then use [D3.js](#d3js), [Turf.js](#turfjs), and/or [Three.js](#threejs) to augment and extend the existing data.
 
 ## Mapbox
 
