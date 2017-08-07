@@ -157,9 +157,16 @@ Description here
 
 `TODO`
 
+- Many built-in tools for generic parts of web apps
+
 ### Disadvantages
 
 `TODO`
+
+- Old
+- Big
+- Slow
+- Opinionated, not as flexible as React
 
 ### Ideal Use Cases
 
@@ -169,17 +176,23 @@ Description here
 
 `TODO`
 
+`I really don't know enough about React to write a full comparison, and I'm worried that since they actively use React I won't be able to provide an adequate point-for-point comparison.`
+
 Description here
 
 ### Advantages
 
 `TODO`
 
+- Fast
 - Extreme extensibility
+- Not opinionated
 
 ### Disadvantages
 
 `TODO`
+
+- Not opinionated
 
 ### Ideal Use Cases
 
@@ -195,11 +208,16 @@ Description here
 
 `TODO`
 
+- Smallest
+- Fastest
+- Cleanest code - `.vue` files
 - Like a combo of Angular and React
 
 ### Disadvantages
 
 `TODO`
+
+- Opinionated, not as flexible as React
 
 ### Ideal Use Cases
 
