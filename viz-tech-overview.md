@@ -235,7 +235,7 @@ Of the three frameworks we're reviewing, Vue.js has the smallest footprint and t
 
 Vue's "opinionated" nature can be advantageous once you learn the design practices, because it can allow you to code large projects with much less overhead. <sup>[[opinionation](https://stackoverflow.com/a/802064/2651657)]</sup>
 
-Vue allows you to write all of your code (HTML, JS, and CSS) inside one file - a `.vue` file. This allows segregation of code and simplification of organization. Vue accomplishes this with [Webpack](https://webpack.js.org/). Each `.vue` file consists of a `<template>`, `<script>`, and `<style>` tag, which you write your HTML, JS, and CSS in respectively. Each tag also takes a `lang` attribute, where you can specify and pre or post processor for the language you are writing. For instance, you can put `lang="scss"` on you `<style>` tag, write in SCSS, and Webpack will auto-compile it to CSS.
+Vue allows you to write all of your code (HTML, JS, and CSS) inside one file - a `.vue` file. This allows segregation of code and simplification of organization. Vue accomplishes this with [Webpack](https://webpack.js.org/). Each `.vue` file consists of a `<template>`, `<script>`, and `<style>` tag, which you write your HTML, JS, and CSS in respectively. Each tag also takes a `lang` attribute, where you can specify a pre or post processor for the language you are writing. For instance, you can put `lang="scss"` on your `<style>` tag, write in SCSS, and Webpack will auto-compile to CSS.
 
 In a best of both worlds kind of way, Vue is developed similarly to Angular, but performs similarly to React.
 
