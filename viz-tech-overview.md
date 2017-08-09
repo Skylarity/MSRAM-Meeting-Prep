@@ -227,29 +227,27 @@ Description here
 
 Description here
 
+[Vue Benchmark](https://vuejs.org/v2/guide/comparison.html)
+
 ### Advantages
+
+Of the three frameworks we're reviewing, Vue.js has the smallest footprint and the fastest benchmarks. Leveraging the power of the virtual DOM (like React, but Vue's is lighter weight), it avoids any repaints of the UI until necessary. Vue's architecture also allows for more performant JS operations to achieve the same results.
 
 Vue's "opinionated" nature can be advantageous once you learn the design practices, because it can allow you to code large projects with much less overhead. <sup>[[opinionation](https://stackoverflow.com/a/802064/2651657)]</sup>
 
-`TODO`
+Vue allows you to write all of your code (HTML, JS, and CSS) inside one file - a `.vue` file. This allows segregation of code and simplification of organization. Vue accomplishes this with [Webpack](https://webpack.js.org/). Each `.vue` file consists of a `<template>`, `<script>`, and `<style>` tag, which you write your HTML, JS, and CSS in respectively. Each tag also takes a `lang` attribute, where you can specify and pre or post processor for the language you are writing. For instance, you can put `lang="scss"` on you `<style>` tag, write in SCSS, and Webpack will auto-compile it to CSS.
 
-- Smallest
-- Fastest
-	- Virtual DOM
-- Cleanest code - `.vue` files
-- Like a combo of Angular and React
+In a best of both worlds kind of way, Vue is developed similarly to Angular, but performs similarly to React.
 
 ### Disadvantages
 
+Being a relatively new framework, community support for Vue is much less existent than Angular or React.
+
 Vue's "opinionated" nature can be limiting if you are trying to do something in a way that the developers did not account for. <sup>[[opinionation](https://stackoverflow.com/a/802064/2651657)]</sup>
-
-`TODO`
-
-- "Opinionated", not as flexible as React
 
 ### Ideal Use Cases
 
-`TODO`
+Vue is ideally used for anything where you need high performance, and don't mind the restriction of its opinionation.
 
 ## Our Recommendation
 
