@@ -177,22 +177,15 @@ React a is a library (not a framework) that provides an interface for managing U
 
 ### Advantages
 
-`TODO`
-
-- Fast
-	- Virtual DOM
-- Extreme extensibility
-- Not "opinionated"
+React is very fast, utilizing a Virtual DOM to avoid unnecessary UI repaints (like Vue). Since React is just a UI library, and not an entire framework, it can be used in many ways, and not interfere with your model or control systems.
 
 ### Disadvantages
 
-`TODO`
-
-- Not "opinionated"
+An artifact of being just a UI library, React forces the user to either use other libraries or write custom code in order to run the other parts of their application. While there are fantastic libraries out there, sometimes the design paradigms inherent in an "opinionated" framework can be very helpful for writing and prototyping extremely quickly.
 
 ### Ideal Use Cases
 
-`TODO`
+React is ideal when you need a flexible, free-form UI that can fit around whatever application paradigm you prefer.
 
 ## Vue.js
 
@@ -204,7 +197,7 @@ React a is a library (not a framework) that provides an interface for managing U
 
 Of the three frameworks we're reviewing, Vue.js has the smallest footprint and the fastest benchmarks. Leveraging the power of the virtual DOM, it avoids any UI repaints until necessary. Vue's architecture also allows for more performant JS operations to achieve the same results.
 
-Vue's "opinionated" nature can be advantageous once you learn the design practices, because it can allow you to code large projects with much less overhead. <sup>[[opinionation](https://stackoverflow.com/a/802064/2651657)]</sup>
+Vue's "opinionated" nature can be advantageous once you learn its design practices, because it can allow you to code large projects with much less development overhead. <sup>[[opinionation](https://stackoverflow.com/a/802064/2651657)]</sup>
 
 Vue allows you to write all of your code (HTML, JS, and CSS) inside one file - a `.vue` file. This allows segregation of code and simplification of organization. Vue accomplishes this with [Webpack](https://webpack.js.org/). Each `.vue` file consists of a `<template>`, `<script>`, and `<style>` tag, which you write your HTML, JS, and CSS in respectively. Each tag also takes a `lang` attribute, where you can specify a pre or post processor for the language you are writing. For instance, you can put `lang="scss"` on your `<style>` tag, write in SCSS, and Webpack will auto-compile to CSS.
 
@@ -212,9 +205,9 @@ In a best of both worlds kind of way, Vue is developed similarly to Angular, but
 
 ### Disadvantages
 
-Being a relatively new framework, community support for Vue is much less existent than Angular or React.
+Vue.js version 2, having been only fairly recently released, has less community support than React or Angular.
 
-Vue's "opinionated" nature can be limiting if you are trying to do something in a way that the developers did not account for. <sup>[[opinionation](https://stackoverflow.com/a/802064/2651657)]</sup>
+Both a blessing and a curse, Vue's semi-"opinionated" nature can be restrictive in certain cases, rather than helpful.
 
 ### Ideal Use Cases
 
