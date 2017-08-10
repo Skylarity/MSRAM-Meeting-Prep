@@ -58,12 +58,6 @@ Showcasing data in a stylized and three-dimensional manner.
 
 [[source](http://armsglobe.chromeexperiments.com/)]
 
-## Our Recommendation
-
-For most cases, using D3 in conjunction with SVG or HTML5 canvas will a powerful combination. Using SVG has the downside of being the least performant option, but for almost every simple graph to moderately detailed visualization it will be worth using for the simplicity it brings in terms of user interaction. In cases where the visualization is very detailed or requires otherwise calculation-heavy elements, using HTML5 canvas should bring the performance back up.
-
-For many other cases, it will be worth potentially limiting the userbase in order to take advantage of the possibilities that a full-3D scene brings to the table. For instance, a 3D model of a city will be more easily traversed and understood by the user than a 2D map when dealing with data related to elevation.
-
 # Mapping Technologies
 
 ## Leaflet.js
@@ -138,14 +132,6 @@ Turf.js is ideal for optimizing user-interaction with data - i.e. detecting if g
 Here, Turf.js is used to find the nearest hospital to a branch of a public library selected by the user. <sup>[[source](https://bl.ocks.org/pdbartsch/44332447869f2a450144)]</sup>
 
 ![turf-demo](images/turf-demo.png)
-
-## Our Recommendation
-
-A combination of Leaflet.js, Turf.js, and D3 will be more than adequate for most visualization projects.
-
-When not using IE11, or if the project has 3D requirements, then swapping Leaflet.js for Mapbox is the optimal pairing. Three.js can also be overlaid on top of the map if IE11 is required, and 3D is not optional.
-
-`TODO: Compare against ESRI web app - might need Kam's help`
 
 # User Interface Framework Technology
 
@@ -246,9 +232,3 @@ Vue's "opinionated" nature can be limiting if you are trying to do something in 
 ### Ideal Use Cases
 
 Vue is ideally used for anything where you need high performance, and don't mind the restriction of its opinionation.
-
-## Our Recommendation
-
-`TODO`
-
-- Vue?
