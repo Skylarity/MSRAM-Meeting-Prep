@@ -137,9 +137,7 @@ Here, Turf.js is used to find the nearest hospital to a branch of a public libra
 
 ## Angular.js v1.x
 
-`TODO`
-
-Description here
+Angular 1 is a framework for single-page-app management and control. It provides functionality for creating reusable components and data sharing.
 
 ### Advantages
 
@@ -155,38 +153,27 @@ Angular's "opinionated" nature can be limiting if you are trying to do something
 
 ### Ideal Use Cases
 
-`TODO`
+Angular 1 should be used in a scenario where you need lots of support. There is a large ecosystem of people who either have used or are currently using Angular 1, and there are a huge number of help threads and libraries.
 
 ## Angular v2+
 
-`TODO`
-
-Description here
+Angular 2 (and above) is the rewrite of Angular 1, focused on simplifying and optimizing the framework.
 
 ### Advantages
 
-`TODO`
-
-- TypeScript recommended
-- Many built-in tools for generic parts of web apps
+Angular 2+ is simpler to write than Angular 1, and the recommended language to write it in is TypeScript. Angular 2+ provides all of the functionality of Angular 1, but the framework is generally smaller, easier to write and comprehend, and faster.
 
 ### Disadvantages
 
-`TODO`
-
-- "Opinionated", not as flexible as React
+Angular 2+ still has the "opinionated" nature of Angular 1, and forces you down its development paradigm. Angular 2+ may perform faster than Angular 1, but it is still slower than React or Vue.
 
 ### Ideal Use Cases
 
-`TODO`
+Angular 2+ is optimal for a scenario in which you prefer a framework with a heavy structure, and provides a specific way to accomplish tasks. This can be good when you are working in a situation where you want no wiggle room, i.e. many developers are working on a project, and organization is imperative.
 
 ## React.js
 
-`TODO`
-
-`I really don't know enough about React to write a full comparison, and I'm worried that since they actively use React I won't be able to provide an adequate point-for-point comparison.`
-
-Description here
+React a is a library (not a framework) that provides an interface for managing UI components. It is entirely flexible, and can fit within whatever framework or paradigm you are using.
 
 ### Advantages
 
@@ -195,7 +182,7 @@ Description here
 - Fast
 	- Virtual DOM
 - Extreme extensibility
-- Not opinionated
+- Not "opinionated"
 
 ### Disadvantages
 
@@ -215,7 +202,7 @@ Description here
 
 ### Advantages
 
-Of the three frameworks we're reviewing, Vue.js has the smallest footprint and the fastest benchmarks. Leveraging the power of the virtual DOM (like React, but Vue's is lighter weight), it avoids any repaints of the UI until necessary. Vue's architecture also allows for more performant JS operations to achieve the same results.
+Of the three frameworks we're reviewing, Vue.js has the smallest footprint and the fastest benchmarks. Leveraging the power of the virtual DOM, it avoids any UI repaints until necessary. Vue's architecture also allows for more performant JS operations to achieve the same results.
 
 Vue's "opinionated" nature can be advantageous once you learn the design practices, because it can allow you to code large projects with much less overhead. <sup>[[opinionation](https://stackoverflow.com/a/802064/2651657)]</sup>
 
@@ -231,4 +218,4 @@ Vue's "opinionated" nature can be limiting if you are trying to do something in 
 
 ### Ideal Use Cases
 
-Vue is ideally used for anything where you need high performance, and don't mind the restriction of its opinionation.
+Vue is ideally used for anything where you need high performance, and prefer a framework that provides some structure.
