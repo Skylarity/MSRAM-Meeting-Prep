@@ -125,7 +125,7 @@ Turf.js reduces complex geographical operations down to a simple method call.
 
 Turf.js must be used client-side if you are not using Node.js as your backend. This means that complex calculations may potentially be offloaded to the client machine.
 
-## ESRI Mapping
+## ESRI/ArcGIS JavaScript API
 
 `TODO`
 
