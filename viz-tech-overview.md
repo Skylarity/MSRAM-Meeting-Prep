@@ -125,6 +125,22 @@ Turf.js reduces complex geographical operations down to a simple method call.
 
 Turf.js must be used client-side if you are not using Node.js as your backend. This means that complex calculations may potentially be offloaded to the client machine.
 
+## ESRI Mapping
+
+`TODO`
+
+### Advantages
+
+`TODO`
+
+- Compatibility with ESRI
+
+### Disadvantages
+
+`TODO`
+
+- Flexibility
+
 ### Ideal Use Cases
 
 Turf.js is ideal for optimizing user-interaction with data - i.e. detecting if geographical points are within a selection, creating grids or random areas of arbitrary data, scaling, rotating, or otherwise transforming data, etc.
